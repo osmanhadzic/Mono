@@ -10,7 +10,7 @@ namespace Mono.Models
         public long id { get; set; }
         public string name { get; set; }
         public string abrv { get; set; }
-        
+
         public VehicleMake vehicleMake { get; set; }
 
     }

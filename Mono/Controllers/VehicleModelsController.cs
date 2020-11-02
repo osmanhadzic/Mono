@@ -37,7 +37,7 @@ namespace Mono.Controllers
                 case "name":
                     vehicleModels = vehicleModels.OrderByDescending(v => v.name);
                     break;
-                case "Date":
+                case "abrv":
                     vehicleModels = vehicleModels.OrderByDescending(v => v.abrv);
                     break;
                 default:
